@@ -2,7 +2,7 @@
 title: "BeyondScene: Higher-Resolution Human-Centric Scene Generation With Pretrained Diffusion"
 collection: publications
 category: conference_full
-permalink: /publication/2024-02-17-paper-title-number-4
+# permalink: /publication/2024-02-17-paper-title-number-4
 excerpt: 'This paper is about generating human-centric ultra-high resolution image with pre-trained diffusion model.'
 date: 2024-04-06
 venue: 'European Conference on Computer Vision (ECCV)'
