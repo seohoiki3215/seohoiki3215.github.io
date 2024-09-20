@@ -20,6 +20,9 @@ News
 </style>
 
 <ul>
+  <li> [2024.09.20] My paper <i>"INTRA: Interaction Relationship-aware Weakly Supervised Affordance Grounding"</i> accepted on <i>Twelfth International Workshop on Assistive Computer Vision and Robotics (ACVR24;ECCVW23)</i>! It will pe presented as an <b>oral presentation</b> in abstract track. <br>
+  </li>
+
   <li> [2024.09.10] My paper <i>"INTRA: Interaction Relationship-aware Weakly Supervised Affordance Grounding"</i> accepted on <i>European Conference on Computer Vision 2024 (ECCV24)</i>! It will pe presented as a poster. <br>
       <a href="https://arxiv.org/pdf/2404.04544" target="_blank">[Paper]</a>
       <a href="https://jeeit17.github.io/INTRA/" target="_blank">[Project page]</a>
