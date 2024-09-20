@@ -6,7 +6,7 @@ category: conference_full
 excerpt: 'This paper is about generating human-centric ultra-high resolution image with pre-trained diffusion model.'
 date: 2024-04-06
 venue: 'European Conference on Computer Vision (ECCV)'
-paperurl: 'http://https://arxiv.org/pdf/2404.04544'
+paperurl: 'https://arxiv.org/pdf/2404.04544'
 citation: 'Gwanghyun Kim*, Hayeon Kim*, <b>Hoigi Seo*</b>, Dong Un Kang*, and Se Young Chun. (* co-first author)'
 ---
 

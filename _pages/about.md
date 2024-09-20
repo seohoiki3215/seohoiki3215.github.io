@@ -9,7 +9,49 @@ redirect_from:
 
 Hi!:raised_hand: I am a passionate MS-PhD student in [ICL](icl.snu.ac.kr), Seoul National University.
 
-<!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+News
+======
+
+<style>
+  img {
+    max-width: 40%;
+    max-height: 40%;
+  } 
+</style>
+
+<ul>
+  <li> [2024.09.10] My paper <i>"INTRA: Interaction Relationship-aware Weakly Supervised Affordance Grounding"</i> accepted on <i>European Conference on Computer Vision 2024 (ECCV24)</i>! It will pe presented as a poster. <br>
+      <a href="https://arxiv.org/pdf/2404.04544" target="_blank">[Paper]</a>
+      <a href="https://jeeit17.github.io/INTRA/" target="_blank">[Project page]</a>
+      <a href="https://jeeit17.github.io/INTRA/" target="_blank">[Code]</a>
+      <figure>
+        <img src="/images/result_intra.gif">
+      </figure>
+  </li>
+
+  <li> [2024.09.10] My paper <i>"BeyondScene: Higher-Resolution Human-Centric Scene Generation With Pretrained Diffusion"</i> accepted on <i>European Conference on Computer Vision 2024 (ECCV24)</i>! It will pe presented as a poster! <br>
+      <a href="https://arxiv.org/pdf/2404.04544" target="_blank">[Paper]</a>
+      <a href="https://janeyeon.github.io/beyond-scene/" target="_blank">[Project page]</a>
+      <a href="https://janeyeon.github.io/beyond-scene/" target="_blank">[Code]</a>
+      <figure>
+        <img src="/images/beyondscene.gif">
+      </figure>
+  </li>
+
+  <li> [2023.04.10] My paper <i>DITTO-NeRF: Diffusion-based Iterative Text To Omni-directional 3D Model</i> is published on <i>arXiv!</i><br>
+      <a href="https://arxiv.org/pdf/2304.02827" target="_blank">[Paper]</a>
+      <a href="https://janeyeon.github.io/ditto-nerf/" target="_blank">[Project page]</a>
+      <a href="https://janeyeon.github.io/ditto-nerf/" target="_blank">[Code]</a>
+      <figure>
+          <img src="/images/ditto_nerf.gif">
+      </figure>
+  </li>
+</ul>
+
+<!-- Selected papers
+======
+
+This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
 A data-driven personal website
 ======
