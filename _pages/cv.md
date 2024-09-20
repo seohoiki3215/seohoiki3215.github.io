@@ -11,36 +11,19 @@ redirect_from:
 
 Education
 ======
-* M.S.-Ph.D in Electrical and Computer Engineering, Seoul National University, 2024~
+* M.S.-Ph.D. in Electrical and Computer Engineering, Seoul National University, 2024~
 * B.S. in Electrical and Computer Engineering, Seoul National University, 2018~2024
-<!-- 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git -->
   
 Skills
 ======
-* Deep learning framework
-  * PyTorch
-  * TensorFlow
+* English (fluent)
 * Programming language
   * Python
   * C++
   * CUDA
-* English (fluent)
+* Deep learning framework
+  * PyTorch
+  * TensorFlow
 
 Publications
 ======
