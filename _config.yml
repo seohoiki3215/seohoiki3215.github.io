@@ -85,6 +85,8 @@ publication_category:
     title: 'Conference (short paper, abstracts or workshop papers)'
   technical_report:
     title: 'Technical Report'
+  patent:
+    title: 'Patent'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
