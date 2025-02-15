@@ -20,10 +20,10 @@ News
 </style>
 
 <ul>
-  <li> [2024.09.20] My paper <i>"Harmonization for a black-box deep learning model"</i> accepted on <i>International Society for Magnetic Resonance in Medicine (ISMRM25)</i>! It will pe presented as an <b>oral presentation</b>. <br>
+  <li> [2025.02.01] My paper <i>"Harmonization for a black-box deep learning model"</i> accepted on <i>International Society for Magnetic Resonance in Medicine (ISMRM25)</i>! It will pe presented as an <b>oral presentation</b>. <br>
   </li>
 
-  <li> [2024.09.20] My paper <i>"INTRA: Interaction Relationship-aware Weakly Supervised Affordance Grounding"</i> accepted on <i>Twelfth International Workshop on Assistive Computer Vision and Robotics (ACVR24;ECCVW23)</i>! It will pe presented as an <b>oral presentation</b> in abstract track. <br>
+  <li> [2024.09.20] My paper <i>"INTRA: Interaction Relationship-aware Weakly Supervised Affordance Grounding"</i> accepted on <i>Twelfth International Workshop on Assistive Computer Vision and Robotics (ECCVW24)</i>! It will pe presented as an <b>oral presentation</b> in abstract track. <br>
   </li>
 
   <li> [2024.09.10] My paper <i>"INTRA: Interaction Relationship-aware Weakly Supervised Affordance Grounding"</i> accepted on <i>European Conference on Computer Vision 2024 (ECCV24)</i>! It will pe presented as a poster. <br>
