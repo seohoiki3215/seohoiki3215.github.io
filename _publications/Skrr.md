@@ -1,11 +1,11 @@
 ---
 title: "Skrr: Skip and Re-use Text Encoder Layers for Memory Efficient Text-to-Image Generation"
 collection: publications
-category: conference_full
+category: technical_report
 # permalink: /publication/2024-02-17-paper-title-number-4
 excerpt: 'This paper is about training models to tackle affordance grounding with weakly supervised learning.'
 date: 2025-02-12
-# venue: 'European Conference on Computer Vision (ECCV)'
+venue: 'arXiv'
 paperurl: 'https://arxiv.org/pdf/2502.08690'
 citation: '<b>Hoigi Seo*</b>, Wongi Jeong*, and Se Young Chun. (* co-first author)'
 ---
