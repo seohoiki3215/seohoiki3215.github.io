@@ -20,17 +20,19 @@ News
 </style>
 
 <ul>
+  <li> [2025.02.27] My paper <i>"Efficient Personalization of Quantized Diffusion Model without Backpropagation"</i> is accepted to <i>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</i>! It will be presented as a poster. See you in Nashville!<br>
+  </li>
   <li> [2025.02.12] My paper <i>"Skrr: Skip and Re-use Text Encoder Layers for Memory Efficient Text-to-Image Generation"</i> is opened to public! <br>
       <a href="https://arxiv.org/pdf/2502.08690" target="_blank">[Paper]</a>
   </li>
 
-  <li> [2025.02.01] My paper <i>"Harmonization for a black-box deep learning model"</i> accepted on <i>International Society for Magnetic Resonance in Medicine (ISMRM25)</i>! It will pe presented as an <b>oral presentation</b>. <br>
+  <li> [2025.02.01] My paper <i>"Harmonization for a black-box deep learning model"</i> is accepted to <i>International Society for Magnetic Resonance in Medicine (ISMRM25)</i>! It will pe presented as an <b>oral presentation</b>. <br>
   </li>
 
-  <li> [2024.09.20] My paper <i>"INTRA: Interaction Relationship-aware Weakly Supervised Affordance Grounding"</i> accepted on <i>Twelfth International Workshop on Assistive Computer Vision and Robotics (ECCVW24)</i>! It will pe presented as an <b>oral presentation</b> in abstract track. <br>
+  <li> [2024.09.20] My paper <i>"INTRA: Interaction Relationship-aware Weakly Supervised Affordance Grounding"</i> is accepted to <i>Twelfth International Workshop on Assistive Computer Vision and Robotics (ECCVW24)</i>! It will pe presented as an <b>oral presentation</b> in abstract track. <br>
   </li>
 
-  <li> [2024.09.10] My paper <i>"INTRA: Interaction Relationship-aware Weakly Supervised Affordance Grounding"</i> accepted on <i>European Conference on Computer Vision 2024 (ECCV24)</i>! It will pe presented as a poster. <br>
+  <li> [2024.09.10] My paper <i>"INTRA: Interaction Relationship-aware Weakly Supervised Affordance Grounding"</i> is accepted to <i>European Conference on Computer Vision 2024 (ECCV24)</i>! It will pe presented as a poster. <br>
       <a href="https://arxiv.org/pdf/2404.04544" target="_blank">[Paper]</a>
       <a href="https://jeeit17.github.io/INTRA/" target="_blank">[Project page]</a>
       <a href="https://jeeit17.github.io/INTRA/" target="_blank">[Code]</a>
@@ -39,7 +41,7 @@ News
       </figure>
   </li>
 
-  <li> [2024.09.10] My paper <i>"BeyondScene: Higher-Resolution Human-Centric Scene Generation With Pretrained Diffusion"</i> accepted on <i>European Conference on Computer Vision 2024 (ECCV24)</i>! It will pe presented as a poster! <br>
+  <li> [2024.09.10] My paper <i>"BeyondScene: Higher-Resolution Human-Centric Scene Generation With Pretrained Diffusion"</i> is accepted to <i>European Conference on Computer Vision 2024 (ECCV24)</i>! It will pe presented as a poster! <br>
       <a href="https://arxiv.org/pdf/2404.04544" target="_blank">[Paper]</a>
       <a href="https://janeyeon.github.io/beyond-scene/" target="_blank">[Project page]</a>
       <a href="https://janeyeon.github.io/beyond-scene/" target="_blank">[Code]</a>
