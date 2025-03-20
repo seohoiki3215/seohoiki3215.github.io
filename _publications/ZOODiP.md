@@ -6,7 +6,7 @@ category: conference_full
 excerpt: 'This paper is about training models to tackle affordance grounding with weakly supervised learning.'
 date: 2025-02-12
 venue: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)'
-paperurl: 'https://arxiv.org/pdf/2502.08690'
+paperurl: 'https://arxiv.org/pdf/2503.14868'
 citation: '<b>Hoigi Seo*</b>, Wongi Jeong*, Kyungryeol Lee, and Se Young Chun. (* co-first author)'
 ---
 

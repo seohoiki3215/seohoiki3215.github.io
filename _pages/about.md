@@ -21,6 +21,9 @@ News
 
 <ul>
   <li> [2025.02.27] My paper <i>"Efficient Personalization of Quantized Diffusion Model without Backpropagation"</i> is accepted to <i>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</i>! It will be presented as a poster. See you in Nashville!<br>
+      <a href="https://arxiv.org/pdf/2503.14868" target="_blank">[Paper]</a>
+      <a href="https://ignoww.github.io/ZOODiP_project/" target="_blank">[Project page]</a>
+      <a href="https://github.com/ignoww/ZOODiP" target="_blank">[Code]</a>
   </li>
   <li> [2025.02.12] My paper <i>"Skrr: Skip and Re-use Text Encoder Layers for Memory Efficient Text-to-Image Generation"</i> is opened to public! <br>
       <a href="https://arxiv.org/pdf/2502.08690" target="_blank">[Paper]</a>
