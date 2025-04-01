@@ -20,6 +20,8 @@ News
 </style>
 
 <ul>
+  <li> [2025.04.01] My paper <i>"Efficient Personalization of Quantized Diffusion Model without Backpropagation"</i> is accepted to <i>2nd Workshop on Efficient and On-Device Generation (EDGE, CVPRW25)</i><br>
+  </li>
   <li> [2025.02.27] My paper <i>"Efficient Personalization of Quantized Diffusion Model without Backpropagation"</i> is accepted to <i>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</i>! It will be presented as a poster. See you in Nashville!<br>
       <a href="https://arxiv.org/pdf/2503.14868" target="_blank">[Paper]</a>
       <a href="https://ignoww.github.io/ZOODiP_project/" target="_blank">[Project page]</a>
