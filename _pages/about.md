@@ -26,12 +26,21 @@ News
       <a href="https://arxiv.org/pdf/2503.14868" target="_blank">[Paper]</a>
       <a href="https://ignoww.github.io/ZOODiP_project/" target="_blank">[Project page]</a>
       <a href="https://github.com/ignoww/ZOODiP" target="_blank">[Code]</a>
+      <figure>
+        <img src="/images/ZOODiP.png">
+      </figure>
   </li>
   <li> [2025.02.12] My paper <i>"Skrr: Skip and Re-use Text Encoder Layers for Memory Efficient Text-to-Image Generation"</i> is opened to public! <br>
       <a href="https://arxiv.org/pdf/2502.08690" target="_blank">[Paper]</a>
+      <figure>
+        <img src="/images/Skrr.png">
+      </figure>
   </li>
 
   <li> [2025.02.01] My paper <i>"Harmonization for a black-box deep learning model"</i> is accepted to <i>International Society for Magnetic Resonance in Medicine (ISMRM25)</i>! It will pe presented as an <b>oral presentation</b>. <br>
+      <figure>
+        <img src="/images/ISMRM25.png">
+      </figure>
   </li>
 
   <li> [2024.09.20] My paper <i>"INTRA: Interaction Relationship-aware Weakly Supervised Affordance Grounding"</i> is accepted to <i>Twelfth International Workshop on Assistive Computer Vision and Robotics (ECCVW24)</i>! It will pe presented as an <b>oral presentation</b> in abstract track. <br>
