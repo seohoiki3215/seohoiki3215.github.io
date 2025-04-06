@@ -3,7 +3,7 @@ title: "DITTO-NeRF: Diffusion-based Iterative Text To Omni-directional 3D Model"
 collection: publications
 category: technical_report
 # permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about fixing template issue #693.'
+excerpt: 'This paper is about generate diverse 3D object with pre-trained 2D diffusion model.'
 date: 2023-04-06
 venue: 'arXiv'
 paperurl: 'https://arxiv.org/pdf/2304.02827'

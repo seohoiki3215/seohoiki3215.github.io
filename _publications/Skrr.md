@@ -3,7 +3,7 @@ title: "Skrr: Skip and Re-use Text Encoder Layers for Memory Efficient Text-to-I
 collection: publications
 category: technical_report
 # permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about training models to tackle affordance grounding with weakly supervised learning.'
+excerpt: 'This paper is about pruning large text encoder in T2I diffusion model for memory efficient image synthesis.'
 date: 2025-02-12
 venue: 'arXiv'
 paperurl: 'https://arxiv.org/pdf/2502.08690'

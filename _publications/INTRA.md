@@ -5,7 +5,7 @@ category: conference_full
 permalink: /publication/2024-02-17-paper-title-number-4
 excerpt: 'This paper is about training models to tackle affordance grounding with weakly supervised learning.'
 date: 2024-09-10
-venue: 'European Conference on Computer Vision (ECCV)'
+venue: 'European Conference on Computer Vision (ECCV), Twelfth International Workshop on Assistive Computer Vision and Robotics (ACVR24) <b>(oral)</b>'
 paperurl: 'https://arxiv.org/pdf/2409.06210'
 citation: 'Ji Ha Jang*, <b>Hoigi Seo*</b>, and Se Young Chun. (* co-first author)'
 ---
