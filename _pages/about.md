@@ -20,6 +20,12 @@ News
 </style>
 
 <ul>
+    <li> [2025.05.01] My paper <i>"Skrr: Skip and Re-use Text Encoder Layers for Memory Efficient Text-to-Image Generation"</i> is accepted to <i>International Conference on Machine Learning (ICML)</i>! It will be presented as a poster. See you in Vancouver! <br>
+      <a href="https://arxiv.org/pdf/2502.08690" target="_blank">[Paper]</a>
+      <figure>
+        <img src="/images/Skrr.png">
+      </figure>
+  </li>
   <li> [2025.04.01] My paper <i>"Efficient Personalization of Quantized Diffusion Model without Backpropagation"</i> is also accepted to <i>2nd Workshop on Efficient and On-Device Generation (EDGE, CVPRW25)</i><br>
   </li>
   <li> [2025.03.29] My paper <i>"On Geometrical Properties of Text Token Embeddings for Strong Semantic Binding in Text-to-Image Generation"</i> is opened to public! <br>
@@ -37,10 +43,6 @@ News
       </figure>
   </li>
   <li> [2025.02.12] My paper <i>"Skrr: Skip and Re-use Text Encoder Layers for Memory Efficient Text-to-Image Generation"</i> is opened to public! <br>
-      <a href="https://arxiv.org/pdf/2502.08690" target="_blank">[Paper]</a>
-      <figure>
-        <img src="/images/Skrr.png">
-      </figure>
   </li>
 
   <li> [2025.02.01] My paper <i>"Harmonization for a black-box deep learning model"</i> is accepted to <i>International Society for Magnetic Resonance in Medicine (ISMRM25)</i>! It will pe presented as an <b>oral presentation</b>. <br>
