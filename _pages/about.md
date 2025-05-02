@@ -26,7 +26,7 @@ News
         <img src="/images/Skrr.png">
       </figure>
   </li>
-  <li> [2025.02.01] My paper <i>"Harmonization for a black-box deep learning model"</i> is selected to <b>Summa cum laude</b> <i>International Society for Magnetic Resonance in Medicine (ISMRM25)</i>! <br>
+  <li> [2025.04.26] My paper <i>"Harmonization for a black-box deep learning model"</i> is selected to <b>Summa cum laude</b> <i>International Society for Magnetic Resonance in Medicine (ISMRM25)</i>! <br>
   </li>
   <li> [2025.04.01] My paper <i>"Efficient Personalization of Quantized Diffusion Model without Backpropagation"</i> is also accepted to <i>2nd Workshop on Efficient and On-Device Generation (EDGE, CVPRW25)</i><br>
   </li>
