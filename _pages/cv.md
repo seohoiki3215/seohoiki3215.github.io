@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+You can download my CV in <a href="/files/Hoigi_CV.pdf" target="_blank">here</a>
+
 Education
 ======
 * M.S.-Ph.D. in Electrical and Computer Engineering, Seoul National University, 2024~
