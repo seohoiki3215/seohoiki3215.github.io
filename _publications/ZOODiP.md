@@ -3,7 +3,7 @@ title: "Efficient Personalization of Quantized Diffusion Model without Backpropa
 collection: publications
 category: conference_full
 # permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about training models to tackle affordance grounding with weakly supervised learning.'
+excerpt: 'This paper is about personalizing Texto-to-Image diffusion models with extreme memory efficiency via zero-th order optimization of quantized model.'
 date: 2025-02-12
 venue: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), The 2nd Workshop on Efficient and On-Device Generation (EDGE)'
 paperurl: 'https://arxiv.org/pdf/2503.14868'
