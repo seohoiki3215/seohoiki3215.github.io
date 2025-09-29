@@ -21,10 +21,16 @@ News
 
 <ul>
   <li> [2025.09.25] My paper <i>"On Epistemic Uncertainty of Visual Tokens for Object Hallucinations in Large Vision-Language Models"</i> is accepted to <i>Neural Information Processing Systems (NeurIPS)</i>! It will be presented as a poster. See you in San Deigo! <br>
-      <!-- <a href="https://arxiv.org/pdf/2502.08690" target="_blank">[Paper]</a>
+      <!-- <a href="https://arxiv.org/pdf/2502.08690" target="_blank">[Paper]</a> -->
       <figure>
-        <img src="/images/Skrr.png">
-      </figure> -->
+        <img src="/images/neurips.png">
+      </figure>
+  </li>
+  <li> [2025.08.19] My paper <i>"Upsample What Matters: Region-Adaptive Latent Sampling for Accelerated Diffusion Transformers"</i> is opened to public! <br>
+      <a href="https://arxiv.org/pdf/2507.08422" target="_blank">[Paper]</a>
+      <figure>
+        <img src="/images/ralu.png">
+      </figure>
   </li>
   <li> [2025.05.01] My paper <i>"Skrr: Skip and Re-use Text Encoder Layers for Memory Efficient Text-to-Image Generation"</i> is accepted to <i>International Conference on Machine Learning (ICML)</i>! It will be presented as a poster. See you in Vancouver! <br>
       <a href="https://arxiv.org/pdf/2502.08690" target="_blank">[Paper]</a>

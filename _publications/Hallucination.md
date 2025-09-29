@@ -5,7 +5,7 @@ category: conference_full
 # permalink: /publication/2024-02-17-paper-title-number-4
 excerpt: 'This paper is about mitigating hallucinations of Large Cision-Language Models via training-free method.'
 date: 2025-09-25
-venue: 'Neural Information Processing Systems'
+venue: 'Neural Information Processing Systems (NeurIPS)'
 paperurl: 'https://arxiv.org/pdf/2503.14868'
 citation: '<b>Hoigi Seo*</b>, Dong Un Kang*, Hyunjin Cho, Joohoon Lee, and Se Young Chun. (* co-first author)'
 ---
