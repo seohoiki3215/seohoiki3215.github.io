@@ -9,7 +9,7 @@ redirect_from:
 
 Hi! :raised_hand: I am Hoigi Seo, a passionate researcher in the cutting-edge Artificial Intelligence (AI) field. I am also a MS-PhD student studying with marvelous colleagues in [ICL](https://icl.snu.ac.kr), Seoul National University. My works focus on integrating multiple modal inputs with deep-learning models, diffusion-based generative model, Large Language Models (LLMs), and innate structure in vision problems. If you have any question about me or my publications, don't hesitate to contact me!
 
-News
+Recent News
 ======
 
 <style>
