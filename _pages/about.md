@@ -20,6 +20,8 @@ Recent News
 </style>
 
 <ul>
+  <li> [2025.10.02] I've won a BK21Four - SNU Fellowship of Research Excellence! ($7,000)
+  </li>
   <li> [2025.09.25] My paper <i>"On Epistemic Uncertainty of Visual Tokens for Object Hallucinations in Large Vision-Language Models"</i> is accepted to <i>Neural Information Processing Systems (NeurIPS)</i>! It will be presented as a poster. See you in San Deigo! <br>
     <a href="https://keenyjin.github.io/epistemic/" target="_blank">[Project page]</a>
       <!-- <a href="https://arxiv.org/pdf/2502.08690" target="_blank">[Paper]</a> -->
