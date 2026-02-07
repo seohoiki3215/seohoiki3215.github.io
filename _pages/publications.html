@@ -1,36 +1,85 @@
 ---
-layout: archive
+layout: single
 title: "Publications"
 permalink: /publications/
-author_profile: true
+author_profile: false
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+{% assign publications = site.publications | sort: "date" | reverse %}
 
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
+<div class="liquid-publications">
+  <section class="liquid-section glass-panel" data-reveal>
+    <p class="publication-intro">
+      This page highlights all publications in reverse chronological order.
+      Each entry links to its detail page and external resources when available.
+      {% if site.author.googlescholar %}
+        You can also browse citations on <a class="liquid-link" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">Google Scholar</a>.
       {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
+    </p>
+  </section>
+
+  {% if site.publication_category %}
+    {% for category in site.publication_category %}
+      {% assign category_posts = publications | where: "category", category[0] %}
+      {% if category_posts.size > 0 %}
+        <section class="publication-category" data-reveal style="--reveal-delay: {{ forloop.index0 | times: 0.05 }}s;">
+          <h2>{{ category[1].title }}</h2>
+          <div class="publication-grid">
+            {% for post in category_posts %}
+              <article class="pub-card" data-reveal style="--reveal-delay: {{ forloop.index0 | times: 0.04 }}s;">
+                <p class="pub-meta">
+                  <span>{{ post.date | date: "%b %Y" }}</span>
+                  {% if post.venue %}<span>{{ post.venue }}</span>{% endif %}
+                </p>
+                <h3 class="pub-title">
+                  <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                </h3>
+                {% if post.citation %}
+                  <p class="pub-authors">{{ post.citation }}</p>
+                {% endif %}
+                {% if post.excerpt %}
+                  <p class="pub-excerpt">{{ post.excerpt }}</p>
+                {% endif %}
+                <div class="pub-actions">
+                  <a class="liquid-btn is-primary" href="{{ post.url | relative_url }}">Details</a>
+                  {% if post.paperurl %}
+                    <a class="liquid-btn" href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer">Paper</a>
+                  {% endif %}
+                  {% if post.projecturl %}
+                    <a class="liquid-btn" href="{{ post.projecturl }}" target="_blank" rel="noopener noreferrer">Project</a>
+                  {% endif %}
+                  {% if post.codeurl %}
+                    <a class="liquid-btn" href="{{ post.codeurl }}" target="_blank" rel="noopener noreferrer">Code</a>
+                  {% endif %}
+                </div>
+              </article>
+            {% endfor %}
+          </div>
+        </section>
+      {% endif %}
     {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+  {% else %}
+    <section class="publication-category" data-reveal>
+      <h2>All Publications</h2>
+      <div class="publication-grid">
+        {% for post in publications %}
+          <article class="pub-card" data-reveal style="--reveal-delay: {{ forloop.index0 | times: 0.04 }}s;">
+            <p class="pub-meta">
+              <span>{{ post.date | date: "%b %Y" }}</span>
+              {% if post.venue %}<span>{{ post.venue }}</span>{% endif %}
+            </p>
+            <h3 class="pub-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+            {% if post.citation %}<p class="pub-authors">{{ post.citation }}</p>{% endif %}
+            {% if post.excerpt %}<p class="pub-excerpt">{{ post.excerpt }}</p>{% endif %}
+            <div class="pub-actions">
+              <a class="liquid-btn is-primary" href="{{ post.url | relative_url }}">Details</a>
+              {% if post.paperurl %}
+                <a class="liquid-btn" href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer">Paper</a>
+              {% endif %}
+            </div>
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+</div>

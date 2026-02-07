@@ -1,0 +1,81 @@
+- date: 2025-10-02
+  title: "Received BK21Four - SNU Fellowship of Research Excellence ($7,000)."
+  links: []
+
+- date: 2025-09-25
+  title: "Our paper on epistemic uncertainty of visual tokens was accepted to NeurIPS 2025 (poster)."
+  links:
+    - label: "Paper"
+      url: "https://arxiv.org/abs/2510.09008"
+    - label: "Project"
+      url: "https://keenyjin.github.io/epistemic/"
+
+- date: 2025-08-19
+  title: "Released RALU: region-adaptive latent sampling for accelerated diffusion transformers."
+  links:
+    - label: "Paper"
+      url: "https://arxiv.org/pdf/2507.08422"
+    - label: "Code"
+      url: "https://github.com/ignoww/RALU"
+
+- date: 2025-05-01
+  title: "Skrr was accepted to ICML 2025 (poster)."
+  links:
+    - label: "Paper"
+      url: "https://arxiv.org/pdf/2502.08690"
+
+- date: 2025-04-26
+  title: "Harmonization for a black-box deep learning model was selected as Summa cum laude at ISMRM 2025."
+  links: []
+
+- date: 2025-04-01
+  title: "Efficient Personalization of Quantized Diffusion Model without Backpropagation was accepted to EDGE@CVPR 2025."
+  links: []
+
+- date: 2025-03-29
+  title: "Released TeeMo on geometric properties of text token embeddings for stronger semantic binding."
+  links:
+    - label: "Paper"
+      url: "https://arxiv.org/pdf/2503.23011"
+
+- date: 2025-02-27
+  title: "Efficient Personalization of Quantized Diffusion Model without Backpropagation was accepted to CVPR 2025 (poster)."
+  links:
+    - label: "Paper"
+      url: "https://arxiv.org/pdf/2503.14868"
+    - label: "Project"
+      url: "https://ignoww.github.io/ZOODiP_project/"
+    - label: "Code"
+      url: "https://github.com/ignoww/ZOODiP"
+
+- date: 2025-02-01
+  title: "Harmonization for a black-box deep learning model was accepted to ISMRM 2025 as an oral presentation."
+  links: []
+
+- date: 2024-09-20
+  title: "INTRA was accepted to ACCV Workshop 2024 as an oral presentation in abstract track."
+  links: []
+
+- date: 2024-09-10
+  title: "INTRA was accepted to ECCV 2024 (poster)."
+  links:
+    - label: "Paper"
+      url: "https://arxiv.org/pdf/2409.06210"
+    - label: "Project"
+      url: "https://jeeit17.github.io/INTRA/"
+
+- date: 2024-09-10
+  title: "BeyondScene was accepted to ECCV 2024 (poster)."
+  links:
+    - label: "Paper"
+      url: "https://arxiv.org/pdf/2404.04544"
+    - label: "Project"
+      url: "https://janeyeon.github.io/beyond-scene/"
+
+- date: 2023-04-10
+  title: "Published DITTO-NeRF on arXiv."
+  links:
+    - label: "Paper"
+      url: "https://arxiv.org/pdf/2304.02827"
+    - label: "Project"
+      url: "https://janeyeon.github.io/ditto-nerf/"
