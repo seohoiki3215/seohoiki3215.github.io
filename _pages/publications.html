@@ -2,7 +2,7 @@
 layout: single
 title: "Publications"
 permalink: /publications/
-author_profile: false
+author_profile: true
 ---
 
 {% assign publications = site.publications | sort: "date" | reverse %}
@@ -22,11 +22,11 @@ author_profile: false
     {% for category in site.publication_category %}
       {% assign category_posts = publications | where: "category", category[0] %}
       {% if category_posts.size > 0 %}
-        <section class="publication-category" data-reveal style="--reveal-delay: {{ forloop.index0 | times: 0.05 }}s;">
+        <section class="publication-category" data-reveal>
           <h2>{{ category[1].title }}</h2>
           <div class="publication-grid">
             {% for post in category_posts %}
-              <article class="pub-card" data-reveal style="--reveal-delay: {{ forloop.index0 | times: 0.04 }}s;">
+              <article class="pub-card" data-reveal>
                 <p class="pub-meta">
                   <span>{{ post.date | date: "%b %Y" }}</span>
                   {% if post.venue %}<span>{{ post.venue }}</span>{% endif %}
@@ -63,7 +63,7 @@ author_profile: false
       <h2>All Publications</h2>
       <div class="publication-grid">
         {% for post in publications %}
-          <article class="pub-card" data-reveal style="--reveal-delay: {{ forloop.index0 | times: 0.04 }}s;">
+          <article class="pub-card" data-reveal>
             <p class="pub-meta">
               <span>{{ post.date | date: "%b %Y" }}</span>
               {% if post.venue %}<span>{{ post.venue }}</span>{% endif %}

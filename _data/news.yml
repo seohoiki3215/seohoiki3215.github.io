@@ -4,6 +4,7 @@
 
 - date: 2025-09-25
   title: "Our paper on epistemic uncertainty of visual tokens was accepted to NeurIPS 2025 (poster)."
+  image: "/images/neurips.png"
   links:
     - label: "Paper"
       url: "https://arxiv.org/abs/2510.09008"
@@ -12,6 +13,7 @@
 
 - date: 2025-08-19
   title: "Released RALU: region-adaptive latent sampling for accelerated diffusion transformers."
+  image: "/images/ralu.png"
   links:
     - label: "Paper"
       url: "https://arxiv.org/pdf/2507.08422"
@@ -20,6 +22,7 @@
 
 - date: 2025-05-01
   title: "Skrr was accepted to ICML 2025 (poster)."
+  image: "/images/Skrr.png"
   links:
     - label: "Paper"
       url: "https://arxiv.org/pdf/2502.08690"
@@ -34,12 +37,14 @@
 
 - date: 2025-03-29
   title: "Released TeeMo on geometric properties of text token embeddings for stronger semantic binding."
+  image: "/images/teemo.png"
   links:
     - label: "Paper"
       url: "https://arxiv.org/pdf/2503.23011"
 
 - date: 2025-02-27
   title: "Efficient Personalization of Quantized Diffusion Model without Backpropagation was accepted to CVPR 2025 (poster)."
+  image: "/images/ZOODiP.png"
   links:
     - label: "Paper"
       url: "https://arxiv.org/pdf/2503.14868"
@@ -50,6 +55,7 @@
 
 - date: 2025-02-01
   title: "Harmonization for a black-box deep learning model was accepted to ISMRM 2025 as an oral presentation."
+  image: "/images/ISMRM25.png"
   links: []
 
 - date: 2024-09-20
@@ -58,6 +64,7 @@
 
 - date: 2024-09-10
   title: "INTRA was accepted to ECCV 2024 (poster)."
+  image: "/images/result_intra.gif"
   links:
     - label: "Paper"
       url: "https://arxiv.org/pdf/2409.06210"
@@ -66,6 +73,7 @@
 
 - date: 2024-09-10
   title: "BeyondScene was accepted to ECCV 2024 (poster)."
+  image: "/images/beyondscene.gif"
   links:
     - label: "Paper"
       url: "https://arxiv.org/pdf/2404.04544"
@@ -74,6 +82,7 @@
 
 - date: 2023-04-10
   title: "Published DITTO-NeRF on arXiv."
+  image: "/images/ditto_nerf.gif"
   links:
     - label: "Paper"
       url: "https://arxiv.org/pdf/2304.02827"

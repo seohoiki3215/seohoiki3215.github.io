@@ -2,7 +2,7 @@
 permalink: /
 title: "Hoigi Seo"
 layout: single
-author_profile: false
+author_profile: true
 show_page_header: false
 redirect_from:
   - /about/
@@ -34,15 +34,15 @@ redirect_from:
       </div>
 
       <div class="liquid-metrics">
-        <div class="metric-card" data-reveal style="--reveal-delay: 0.08s;">
+        <div class="metric-card" data-reveal>
           <p class="metric-label">Publications</p>
           <p class="metric-value">{{ publication_total }}</p>
         </div>
-        <div class="metric-card" data-reveal style="--reveal-delay: 0.14s;">
+        <div class="metric-card" data-reveal>
           <p class="metric-label">Latest Publication</p>
           <p class="metric-value">{{ latest_publication.date | date: "%Y" }}</p>
         </div>
-        <div class="metric-card" data-reveal style="--reveal-delay: 0.2s;">
+        <div class="metric-card" data-reveal>
           <p class="metric-label">Latest News</p>
           <p class="metric-value">{{ latest_news_item.date | date: "%b %Y" }}</p>
         </div>
@@ -53,19 +53,19 @@ redirect_from:
   <section class="liquid-section glass-panel" data-reveal>
     <h2>Research Focus</h2>
     <div class="focus-grid">
-      <article class="focus-item" data-reveal style="--reveal-delay: 0.05s;">
+      <article class="focus-item" data-reveal>
         <h3>Multimodal Language-Vision Models</h3>
         <p>Understanding and reducing object hallucinations with uncertainty-aware token analysis.</p>
       </article>
-      <article class="focus-item" data-reveal style="--reveal-delay: 0.1s;">
+      <article class="focus-item" data-reveal>
         <h3>Diffusion Model Efficiency</h3>
         <p>Improving speed and memory efficiency with adaptive sampling and lightweight optimization.</p>
       </article>
-      <article class="focus-item" data-reveal style="--reveal-delay: 0.15s;">
+      <article class="focus-item" data-reveal>
         <h3>Text-to-Image Alignment</h3>
         <p>Studying token geometry and cross-attention behavior for stronger semantic binding.</p>
       </article>
-      <article class="focus-item" data-reveal style="--reveal-delay: 0.2s;">
+      <article class="focus-item" data-reveal>
         <h3>Practical Robustness</h3>
         <p>Designing methods that remain effective under limited compute and real-world constraints.</p>
       </article>
@@ -76,9 +76,14 @@ redirect_from:
     <h2>Recent News</h2>
     <div class="news-grid">
       {% for item in site.data.news limit: 10 %}
-        <article class="news-item" data-reveal style="--reveal-delay: {{ forloop.index0 | times: 0.045 }}s;">
+        <article class="news-item" data-reveal>
           <p class="news-date">{{ item.date | date: "%b %d, %Y" }}</p>
           <p class="news-title">{{ item.title }}</p>
+          {% if item.image %}
+            <div class="news-media">
+              <img src="{{ item.image | relative_url }}" alt="{{ item.title }}">
+            </div>
+          {% endif %}
           {% if item.links and item.links.size > 0 %}
             <div class="news-links">
               {% for link in item.links %}

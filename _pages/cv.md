@@ -2,7 +2,7 @@
 layout: single
 title: "CV"
 permalink: /cv/
-author_profile: false
+author_profile: true
 redirect_from:
   - /resume
 ---
@@ -24,7 +24,7 @@ redirect_from:
         <p class="pub-title">M.S.-Ph.D. in Electrical and Computer Engineering, Seoul National University</p>
         <p class="pub-meta"><span>2024 - Present</span></p>
       </article>
-      <article class="pub-card" data-reveal style="--reveal-delay: 0.05s;">
+      <article class="pub-card" data-reveal>
         <p class="pub-title">B.S. in Electrical and Computer Engineering, Seoul National University</p>
         <p class="pub-meta"><span>2018 - 2024</span></p>
       </article>
@@ -38,11 +38,11 @@ redirect_from:
         <p class="pub-title">Programming</p>
         <p class="pub-excerpt">Python, C++, CUDA</p>
       </article>
-      <article class="pub-card" data-reveal style="--reveal-delay: 0.05s;">
+      <article class="pub-card" data-reveal>
         <p class="pub-title">Frameworks</p>
         <p class="pub-excerpt">PyTorch, TensorFlow</p>
       </article>
-      <article class="pub-card" data-reveal style="--reveal-delay: 0.1s;">
+      <article class="pub-card" data-reveal>
         <p class="pub-title">Language</p>
         <p class="pub-excerpt">English (fluent)</p>
       </article>
@@ -53,7 +53,7 @@ redirect_from:
     <h2>Publication List</h2>
     <div class="publication-grid">
       {% for post in publications %}
-        <article class="pub-card" data-reveal style="--reveal-delay: {{ forloop.index0 | times: 0.03 }}s;">
+        <article class="pub-card" data-reveal>
           <p class="pub-meta">
             <span>{{ post.date | date: "%b %Y" }}</span>
             {% if post.venue %}<span>{{ post.venue }}</span>{% endif %}
