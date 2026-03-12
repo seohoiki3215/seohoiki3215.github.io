@@ -21,7 +21,7 @@ redirect_from:
     <h2>Education</h2>
     <div class="publication-grid">
       <article class="pub-card" data-reveal>
-        <p class="pub-title">M.S.-Ph.D. in Electrical and Computer Engineering, Seoul National University</p>
+        <p class="pub-title">Ph.D. in Electrical and Computer Engineering, Seoul National University</p>
         <p class="pub-meta"><span>2024 - Present</span></p>
       </article>
       <article class="pub-card" data-reveal>

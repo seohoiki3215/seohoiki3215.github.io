@@ -21,7 +21,7 @@ redirect_from:
         <span class="liquid-kicker">Research Homepage</span>
         <h1 class="liquid-home-title">Building Reliable and Efficient Multimodal AI</h1>
         <p class="liquid-home-summary">
-          I am an M.S.-Ph.D. student in Electrical and Computer Engineering at Seoul National University, working with the Intelligent Computing Lab.
+          I am a Ph.D. student in Electrical and Computer Engineering at Seoul National University, working with the Intelligent Computing Lab.
           My research focuses on multimodal language-vision systems, diffusion-based generation, and robust visual representation learning.
         </p>
         <div class="liquid-cta-row">
