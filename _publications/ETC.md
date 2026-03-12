@@ -1,0 +1,13 @@
+---
+title: "Erasing Thousands of Concepts: Towards Scalable and Practical Concept Erasure for Text-to-Image Diffusion Model"
+collection: publications
+category: conference_full
+# permalink: /publication/2024-02-17-paper-title-number-4
+excerpt: 'This paper is about erasing thousands of concepts in Text-to-Image diffusion models.'
+date: 2026-03-12
+venue: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)'
+# paperurl: 'https://arxiv.org/pdf/2507.08422'
+citation: '<b>Hoigi Seo*</b>, Byung Hyun Lee*, Jaehyun Cho, Sungjin Lim and Se Young Chun. (* co-first author)'
+---
+
+Large-scale text-to-image (T2I) diffusion models deliver remarkable visual fidelity but pose  safety risks due to their capacity to reproduce undesirable content, such as copyrighted ones. Concept erasure has emerged as a mitigation strategy, yet existing approaches struggle to balance scalability, precision, and robustness, which restricts their applicability to erasing only a few hundred concepts. To address these limitations, we present Erasing Thousands of Concepts (ETC), a scalable  framework capable of erasing thousands of concepts while preserving generation quality. Our method first models low-rank concept distributions via a Student’s t-distribution Mixture Model (tMM). It enables pin-point erasure of target concepts via affine optimal transport while preserving others by anchoring the boundaries of target concept distributions without pre-defined anchor concepts. We then train a Mixture-of-Experts (MoE)–based module, termed MoEraser, which removes target embeddings while preserving the anchor embeddings. By injecting noise into the text embedding projector and fine-tuning MoEraser for recovery, our framework achieves robustness to white-box attack such as module removal. Extensive experiments on over 2,000 concepts across heterogeneous domains and diffusion models demonstrate state-of-the-art scalability and precision in large-scale concept erasure.

@@ -1,13 +1,13 @@
 ---
-title: "Upsample What Matters: Region-Adaptive Latent Sampling for Accelerated Diffusion Transformers"
+title: "Training-free Mixed-Resolution Latent Upsampling for Spatially Accelerated Diffusion Transformers"
 collection: publications
-category: technical_report
+category: conference_full
 # permalink: /publication/2024-02-17-paper-title-number-4
 excerpt: 'This paper is about accelerating Text-to-Image diffusion models with region-adaptive upsampling'
-date: 2025-08-19
-venue: 'arXiv'
+date: 2026-03-12
+venue: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)'
 paperurl: 'https://arxiv.org/pdf/2507.08422'
-citation: 'Wongi Jeong*, Kyeongryeol Lee*, <b>Hoigi Seo</b>, and Se Young Chun. (* co-first author)'
+citation: 'Wongi Jeong*, Kyeongryeol Lee*, <b>Hoigi Seo</b> and Se Young Chun. (* co-first author)'
 ---
 
-Diffusion transformers have emerged as an alternative to U-net-based diffusion models for high-fidelity image and video generation, offering superior scalability. However, their heavy computation remains a major obstacle to real-world deployment. Existing acceleration methods primarily exploit the temporal dimension such as reusing cached features across diffusion timesteps. Here, we propose Region-Adaptive Latent Upsampling (RALU), a training-free framework that accelerates inference along spatial dimension. RALU performs mixed-resolution sampling across three stages: 1) low-resolution denoising latent diffusion to efficiently capture global semantic structure, 2) region-adaptive upsampling on specific regions prone to artifacts at full-resolution, and 3) all latent upsampling at full-resolution for detail refinement. To stabilize generations across resolution transitions, we leverage noise-timestep rescheduling to adapt the noise level across varying resolutions. Our method significantly reduces computation while preserving image quality by achieving up to 7.0× speed-up on FLUX and 3.0× on Stable Diffusion 3 with minimal degradation. Furthermore, RALU is complementary to existing temporal accelerations such as caching methods, thus can be seamlessly integrated to further reduce inference latency without compromising generation quality.
+Diffusion transformers (DiTs) offer excellent scalability for high-fidelity generation, but their computational overhead poses a great challenge for practical deployment. Existing acceleration methods primarily exploit the temporal dimension, whereas spatial acceleration remains underexplored. In this work, we investigate spatial acceleration for DiTs via latent upsampling. We found that na\"ive latent upsampling for spatial acceleration introduces artifacts, primarily due to aliasing in high-frequency edge regions and mismatching from noise-timestep discrepancies. Then, based on these findings and analyses, we propose a training-free spatial acceleration framework, dubbed Region-Adaptive Latent Upsampling (RALU), to mitigate those artifacts while achieving spatial acceleration of DiTs by our mixed-resolution latent upsampling. RALU achieves artifact-free, efficient acceleration with early upsampling only on artifact-prone edge regions and noise-timestep matching for different latent resolutions, leading to up to 7.0$\times$ speedup on FLUX-1.dev and 3.0$\times$ on Stable Diffusion 3 with negligible quality degradation. Furthermore, our RALU is complementarily applicable to existing temporal acceleration methods and timestep-distilled models, leading to up to 15.9$\times$ speedup.
