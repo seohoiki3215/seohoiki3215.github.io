@@ -6,6 +6,7 @@ category: technical_report
 excerpt: 'This paper is about analyzing its geometrical properties in cross-attention and leverage its properties for strong semantic binding.'
 date: 2025-03-29
 venue: 'arXiv'
+teaser: '/images/teemo.png'
 paperurl: 'https://arxiv.org/pdf/2503.23011'
 citation: '<b>Hoigi Seo*</b>, Junseo Bang*, Haechang Lee*, Joohoon Lee, Byung Hyun Lee and Se Young Chun. (* co-first author)'
 ---

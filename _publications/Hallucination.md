@@ -6,7 +6,10 @@ category: conference_full
 excerpt: 'This paper is about mitigating hallucinations of Large Vision-Language Models via training-free method.'
 date: 2025-09-25
 venue: 'Neural Information Processing Systems (NeurIPS)'
+teaser: '/images/neurips.png'
+featured: true
 paperurl: 'https://arxiv.org/abs/2510.09008'
+projecturl: 'https://keenyjin.github.io/epistemic/'
 citation: '<b>Hoigi Seo*</b>, Dong Un Kang*, Hyunjin Cho, Joohoon Lee and Se Young Chun. (* co-first author)'
 ---
 

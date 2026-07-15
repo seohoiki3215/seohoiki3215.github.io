@@ -6,7 +6,10 @@ category: conference_full
 excerpt: 'This paper is about accelerating Text-to-Image diffusion models with region-adaptive upsampling'
 date: 2026-03-12
 venue: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)'
+teaser: '/images/ralu.png'
+featured: true
 paperurl: 'https://arxiv.org/pdf/2507.08422'
+codeurl: 'https://github.com/ignoww/RALU'
 citation: 'Wongi Jeong*, Kyeongryeol Lee*, <b>Hoigi Seo</b> and Se Young Chun. (* co-first author)'
 ---
 

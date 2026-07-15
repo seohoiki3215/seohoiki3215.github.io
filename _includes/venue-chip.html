@@ -1,0 +1,18 @@
+{% comment %}
+Renders a color-coded venue chip (e.g. "CVPR 2026") plus an optional award chip.
+Usage: {% include venue-chip.html publication=post %}
+{% endcomment %}
+{% assign vc_pub = include.publication %}
+{% if vc_pub.venue %}
+  {% assign vc_parts = vc_pub.venue | split: '(' %}
+  {% if vc_parts.size > 1 %}
+    {% assign vc_short = vc_parts[1] | split: ')' | first %}
+  {% else %}
+    {% assign vc_short = vc_pub.venue %}
+  {% endif %}
+  {% assign vc_class = vc_short | downcase | replace: ' ', '-' | replace: '/', '-' %}
+  <span class="pub-chip pub-chip--{{ vc_class }}">{{ vc_short }}{% if vc_pub.date %} {{ vc_pub.date | date: "%Y" }}{% endif %}</span>
+{% endif %}
+{% if vc_pub.award %}
+  <span class="pub-chip pub-chip--award">{{ vc_pub.award }}</span>
+{% endif %}

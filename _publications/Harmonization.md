@@ -6,6 +6,8 @@ category: conference_short
 excerpt: 'This paper is about harmonizing MR image for a black-box deep learning model'
 date: 2025-02-01
 venue: 'International Society for Magnetic Resonance in Medicine (ISMRM) <b>(oral, Summa cum laude)</b>'
+teaser: '/images/ISMRM25.png'
+award: 'Oral · Summa cum laude'
 # paperurl: 'https://arxiv.org/pdf/2409.06210'
 citation: 'Minjun Kim, Hwihun Jeong, <b>Hoigi Seo</b>, Se Young Chun and Jongho Lee'
 ---

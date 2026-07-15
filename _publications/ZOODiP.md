@@ -6,7 +6,11 @@ category: conference_full
 excerpt: 'This paper is about personalizing Texto-to-Image diffusion models with extreme memory efficiency via zero-th order optimization of quantized model.'
 date: 2025-02-12
 venue: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), The 2nd Workshop on Efficient and On-Device Generation (EDGE)'
+teaser: '/images/ZOODiP.png'
+featured: true
 paperurl: 'https://arxiv.org/pdf/2503.14868'
+projecturl: 'https://ignoww.github.io/ZOODiP_project/'
+codeurl: 'https://github.com/ignoww/ZOODiP'
 citation: '<b>Hoigi Seo*</b>, Wongi Jeong*, Kyungryeol Lee and Se Young Chun. (* co-first author)'
 ---
 

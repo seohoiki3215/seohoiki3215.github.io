@@ -54,12 +54,15 @@ redirect_from:
     <div class="publication-grid">
       {% for post in publications %}
         <article class="pub-card" data-reveal>
+          <div class="pub-chip-row">
+            {% include venue-chip.html publication=post %}
+          </div>
+          <h3 class="pub-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+          {% if post.citation %}<p class="pub-authors">{{ post.citation }}</p>{% endif %}
           <p class="pub-meta">
             <span>{{ post.date | date: "%b %Y" }}</span>
             {% if post.venue %}<span>{{ post.venue }}</span>{% endif %}
           </p>
-          <h3 class="pub-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-          {% if post.citation %}<p class="pub-authors">{{ post.citation }}</p>{% endif %}
         </article>
       {% endfor %}
     </div>

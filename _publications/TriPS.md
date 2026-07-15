@@ -1,5 +1,5 @@
 ---
-title: "Perceptually Consistent Low-Resolution Previews with High-Resolution Image for Efficient Workflows of Diffusion Models"
+title: "Triadic Dynamics Aware Diffusion Posterior Sampling for Inverse Problems: Optimizing Guidance and Stochasticity Schedules"
 collection: publications
 category: conference_full
 # permalink: /publication/2024-02-17-paper-title-number-4
