@@ -3,7 +3,7 @@ title: "Training-free Mixed-Resolution Latent Upsampling for Spatially Accelerat
 collection: publications
 category: conference_full
 # permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about accelerating Text-to-Image diffusion models with region-adaptive upsampling'
+excerpt: 'Region-adaptive latent upsampling accelerates diffusion transformers with minimal quality degradation.'
 date: 2026-03-12
 venue: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)'
 teaser: '/images/ralu.png'

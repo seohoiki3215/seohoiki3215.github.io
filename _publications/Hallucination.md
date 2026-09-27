@@ -3,7 +3,7 @@ title: "On Epistemic Uncertainty of Visual Tokens for Object Hallucinations in L
 collection: publications
 category: conference_full
 # permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about mitigating hallucinations of Large Vision-Language Models via training-free method.'
+excerpt: 'Identifying and masking uncertain visual tokens to reduce object hallucinations without training.'
 date: 2025-09-25
 venue: 'Neural Information Processing Systems (NeurIPS)'
 teaser: '/images/neurips.png'

@@ -10,11 +10,9 @@ redirect_from:
 {% assign publications = site.publications | sort: "date" | reverse %}
 
 <div class="liquid-publications">
-  <section class="liquid-section glass-panel" data-reveal>
-    <p class="publication-intro">
-      Download the full CV as PDF:
-      <a class="liquid-link" href="{{ '/files/Hoigi_CV.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Hoigi Seo - CV</a>
-    </p>
+  <section class="cv-banner" data-reveal>
+    <div><span class="section-eyebrow">CURRICULUM VITAE</span><h2>My background, in one place.</h2><p>Download my full CV for education, research, and publications.</p></div>
+    <a class="liquid-btn is-primary cv-download" href="{{ '/files/Hoigi_CV.pdf' | relative_url }}" download="Hoigi_Seo_CV.pdf">{% include download-icon.html %} Download CV <span class="pdf-label">PDF</span></a>
   </section>
 
   <section class="publication-category" data-reveal>

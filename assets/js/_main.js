@@ -30,8 +30,11 @@ $(document).ready(function(){
     $(".author__urls-wrapper button").toggleClass("open");
   });
 
-  // init smooth scroll, this needs to be slightly more than then fixed masthead height
-  $("a").smoothScroll({offset: -65});
+  // Leave room for the fixed header when jumping to a section.
+  $("a").smoothScroll({
+    offset: -($(".masthead").outerHeight() + 24),
+    speed: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? 0 : 400
+  });
 
   // add lightbox class to all image links
   $("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");

@@ -3,7 +3,7 @@ title: "On Geometrical Properties of Text Token Embeddings for Strong Semantic B
 collection: publications
 category: technical_report
 # permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about analyzing its geometrical properties in cross-attention and leverage its properties for strong semantic binding.'
+excerpt: 'Using text embedding geometry to improve semantic binding in text-to-image generation.'
 date: 2025-03-29
 venue: 'arXiv'
 teaser: '/images/teemo.png'

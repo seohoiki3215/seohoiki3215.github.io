@@ -6,7 +6,7 @@
 
   /* Theme toggle (initial data-theme is applied pre-paint in head.html) */
   var THEME_KEY = "liquid-theme";
-  var THEME_COLORS = { light: "#ece9ff", dark: "#0d1126" };
+  var THEME_COLORS = { light: "#f7f8fa", dark: "#101b24" };
 
   function storedTheme() {
     try {

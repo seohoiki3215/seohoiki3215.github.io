@@ -1,9 +1,10 @@
 ---
 title: "Perceptually Consistent Low-Resolution Previews with High-Resolution Image for Efficient Workflows of Diffusion Models"
 collection: publications
+teaser: '/images/research/preview.png'
 category: conference_full
 # permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about generating perceptually consistent low-resolution image for workflow efficiency.'
+excerpt: 'Training-free, low-resolution previews that stay perceptually consistent with high-resolution outputs.'
 date: 2026-03-12
 venue: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)'
 # paperurl: 'https://arxiv.org/pdf/2507.08422'

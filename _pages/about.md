@@ -10,9 +10,6 @@ redirect_from:
 ---
 
 {% assign publications = site.publications | sort: "date" | reverse %}
-{% assign publication_total = publications | size %}
-{% assign latest_publication = publications | first %}
-{% assign latest_news_item = site.data.news | first %}
 {% assign featured_publications = publications | where: "featured", true %}
 
 <div class="liquid-home">
@@ -20,14 +17,14 @@ redirect_from:
     <div class="liquid-hero-grid">
       <div class="liquid-hero-copy">
         <span class="liquid-kicker">Ph.D. Student · Seoul National University</span>
-        <h1 class="liquid-home-title">Building Reliable and Efficient <span class="liquid-gradient-text">Multimodal AI</span></h1>
+        <h1 class="liquid-home-title">Reliable multimodal AI.<br><span class="liquid-gradient-text">Efficient generation.</span></h1>
         <p class="liquid-home-summary">
           I am a Ph.D. student in Electrical and Computer Engineering at Seoul National University, working with the Intelligent Computing Lab.
           My research focuses on multimodal language-vision systems, diffusion-based generation, and robust visual representation learning.
         </p>
         <div class="liquid-cta-row">
-          <a class="liquid-btn is-primary" href="{{ '/publications/' | relative_url }}">View Publications</a>
-          <a class="liquid-btn" href="{{ '/cv/' | relative_url }}">Open CV</a>
+          <a class="liquid-btn is-primary cv-download" href="{{ '/files/Hoigi_CV.pdf' | relative_url }}" download="Hoigi_Seo_CV.pdf">{% include download-icon.html %} Download CV <span class="pdf-label">PDF</span></a>
+          <a class="liquid-btn" href="#selected-research">Explore research <span aria-hidden="true">↗</span></a>
           {% if site.author.googlescholar %}
             <a class="liquid-btn" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">Google Scholar</a>
           {% endif %}
@@ -45,27 +42,14 @@ redirect_from:
         </div>
       </div>
 
-      <div class="liquid-metrics">
-        <div class="metric-card" data-reveal>
-          <p class="metric-label">Publications</p>
-          <p class="metric-value"><span data-count-to="{{ publication_total }}">{{ publication_total }}</span></p>
-        </div>
-        <div class="metric-card" data-reveal>
-          <p class="metric-label">Latest Publication</p>
-          <p class="metric-value">{{ latest_publication.date | date: "%Y" }}</p>
-        </div>
-        <div class="metric-card" data-reveal>
-          <p class="metric-label">Latest News</p>
-          <p class="metric-value">{{ latest_news_item.date | date: "%b %Y" }}</p>
-        </div>
-      </div>
+
     </div>
   </section>
 
   {% if featured_publications.size > 0 %}
-  <section class="liquid-section glass-panel" data-reveal>
+  <section id="selected-research" class="liquid-section glass-panel" data-reveal>
     <div class="liquid-section-head">
-      <h2>Featured Research</h2>
+      <div><span class="section-eyebrow">01 / SELECTED WORK</span><h2>Research in focus</h2></div>
       <a class="liquid-link" href="{{ '/publications/' | relative_url }}">All publications &rarr;</a>
     </div>
     <div class="featured-grid">
@@ -81,7 +65,8 @@ redirect_from:
               {% include venue-chip.html publication=post %}
             </div>
             <h3 class="featured-title">{{ post.title }}</h3>
-            <p class="featured-meta">{{ post.date | date: "%b %Y" }}</p>
+            <p class="featured-summary">{{ post.excerpt }}</p>
+            <span class="featured-read">Explore paper <span aria-hidden="true">↗</span></span>
           </div>
         </a>
       {% endfor %}
@@ -91,7 +76,7 @@ redirect_from:
 
   <div class="liquid-columns">
     <section class="liquid-section glass-panel" data-reveal>
-      <h2>Research Focus</h2>
+      <span class="section-eyebrow">02 / RESEARCH DIRECTIONS</span><h2>What I work on</h2>
       <div class="focus-grid">
         <article class="focus-item" data-reveal>
           <h3>Multimodal Language-Vision Models</h3>
@@ -113,18 +98,13 @@ redirect_from:
     </section>
 
     <section class="liquid-section glass-panel" data-reveal>
-      <h2>Recent News</h2>
+      <span class="section-eyebrow">03 / UPDATES</span><h2>Recent news</h2>
       <div class="news-scroll">
         <div class="news-timeline">
-          {% for item in site.data.news limit: 10 %}
+          {% for item in site.data.news limit: 5 %}
             <article class="news-item" data-reveal>
               <p class="news-date">{{ item.date | date: "%b %d, %Y" }}</p>
               <p class="news-title">{{ item.title }}</p>
-              {% if item.image %}
-                <div class="news-media">
-                  <img src="{{ item.image | relative_url }}" alt="{{ item.title }}" loading="lazy">
-                </div>
-              {% endif %}
               {% if item.links and item.links.size > 0 %}
                 <div class="news-links">
                   {% for link in item.links %}

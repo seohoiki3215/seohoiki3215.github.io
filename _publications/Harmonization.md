@@ -3,7 +3,7 @@ title: "Harmonization for a black-box deep learning model"
 collection: publications
 category: conference_short
 # permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about harmonizing MR image for a black-box deep learning model'
+excerpt: 'Harmonizing MR images for black-box models without access to model parameters.'
 date: 2025-02-01
 venue: 'International Society for Magnetic Resonance in Medicine (ISMRM) <b>(oral, Summa cum laude)</b>'
 teaser: '/images/ISMRM25.png'

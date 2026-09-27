@@ -3,7 +3,7 @@ title: "Skrr: Skip and Re-use Text Encoder Layers for Memory Efficient Text-to-I
 collection: publications
 category: conference_full
 # permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about pruning large text encoder in T2I diffusion model for memory efficient image synthesis.'
+excerpt: 'Skipping and reusing text encoder layers for memory-efficient text-to-image generation.'
 date: 2025-05-01
 venue: 'International Conference on Machine Learning (ICML)'
 teaser: '/images/Skrr.png'

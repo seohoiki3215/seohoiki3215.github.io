@@ -1,9 +1,11 @@
 ---
 title: "Erasing Thousands of Concepts: Towards Scalable and Practical Concept Erasure for Text-to-Image Diffusion Model"
+featured: true
 collection: publications
+teaser: '/images/research/etc.png'
 category: conference_full
 # permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about erasing thousands of concepts in Text-to-Image diffusion models.'
+excerpt: 'Scalable concept erasure that removes thousands of concepts while preserving generation quality.'
 date: 2026-03-12
 venue: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)'
 # paperurl: 'https://arxiv.org/pdf/2507.08422'

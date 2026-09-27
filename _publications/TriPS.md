@@ -1,9 +1,10 @@
 ---
 title: "Triadic Dynamics Aware Diffusion Posterior Sampling for Inverse Problems: Optimizing Guidance and Stochasticity Schedules"
 collection: publications
+teaser: '/images/research/trips.png'
 category: conference_full
 # permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about optimizing CFG, data-consistency, stochasticity scale schedulers for inverse problems.'
+excerpt: 'Coordinating guidance and stochasticity schedules for diffusion-based inverse problems.'
 date: 2026-03-12
 venue: 'International Conference on Machine Learning (ICML)'
 # paperurl: 'https://arxiv.org/pdf/2507.08422'

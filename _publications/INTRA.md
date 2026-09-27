@@ -3,7 +3,7 @@ title: "INTRA: Interaction Relationship-aware Weakly Supervised Affordance Groun
 collection: publications
 category: conference_full
 # permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about training models to tackle affordance grounding with weakly supervised learning.'
+excerpt: 'Learning interaction-aware affordance grounding from weak supervision.'
 date: 2024-09-10
 venue: 'European Conference on Computer Vision (ECCV), Twelfth International Workshop on Assistive Computer Vision and Robotics (ACVR24) <b>(oral)</b>'
 teaser: '/images/result_intra.gif'
