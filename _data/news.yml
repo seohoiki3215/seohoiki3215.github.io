@@ -1,9 +1,11 @@
 - date: 2026-05-01
   title: "Our paper \"Triadic Dynamics Aware Diffusion Posterior Sampling for Inverse Problems: Optimizing Guidance and Stochasticity Schedules\" accepted to ICML 2026! See you in Seoul, Korea (my hometown)!"
-  links: []
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2605.26470"
 
 - date: 2026-03-12
-  title: "3 Papers accepted to CVPR 2026 (2 first-authored, 1 co-authored)! See you in Denver, Colorado!"
+  title: "3 Papers accepted to CVPR 2026 (2 first-authored, 1 co-authored)! RALU was selected as a Highlight (Top 3.4%). See you in Denver, Colorado!"
   links: []
 
 - date: 2025-10-02

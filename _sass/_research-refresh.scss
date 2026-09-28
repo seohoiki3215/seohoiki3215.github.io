@@ -89,13 +89,18 @@ body::before, body::after, .liquid-hero::before, .liquid-hero::after { display: 
 .focus-item { padding: 1rem 0; border: 0; border-bottom: 1px solid var(--portfolio-line); border-radius: 0; background: transparent; }
 .page__content .focus-item h3 { margin: 0 0 8px; font-size: .94rem; }
 .focus-item p { font-size: .8rem; line-height: 1.7; }
-.news-timeline { padding: 0; gap: 0; }
+.liquid-columns > .liquid-section, .news-scroll, .news-timeline, .news-item { min-width: 0; }
+.news-timeline { padding: 0; gap: 0; grid-template-columns: minmax(0, 1fr); }
 .news-timeline::before, .news-item::before { display: none; }
 .news-item { padding: 1rem 0; background: transparent; border: 0; border-bottom: 1px solid var(--portfolio-line); border-radius: 0; gap: 7px; }
 .news-item:hover { transform: none; box-shadow: none; }
-.news-date { font-size: .62rem; }
+.page__content .news-date { font-size: .65rem; }
+.news-scroll:focus-visible { outline: 2px solid var(--liquid-accent); outline-offset: 4px; }
+.page__content .news-date, .page__content .news-title { margin: 0; overflow-wrap: anywhere; }
 .page__content .news-title { font-size: .8rem; line-height: 1.7; }
-.liquid-columns .news-scroll { max-height: none; overflow: visible; }
+.liquid-columns .news-scroll { max-height: 28rem; overflow-y: auto; scrollbar-gutter: stable; overscroll-behavior-y: contain; padding-right: .6rem; }
+.news-item { grid-template-columns: minmax(0, 1fr); }
+.news-links, .news-footer { overflow-wrap: anywhere; }
 .news-footer { font-size: .72rem; line-height: 1.7; }
 .publication-category { padding: 0; border: 0; border-radius: 0; background: transparent; margin-top: 1.5rem; }
 .page__content .publication-category > h2 { font-size: 1.35rem; border-bottom: 1px solid var(--portfolio-line); padding-bottom: 16px; margin-top: 0; }
@@ -125,6 +130,7 @@ body::before, body::after, .liquid-hero::before, .liquid-hero::after { display: 
   #main { padding: 0 24px; column-gap: 28px; }
   .pub-card.has-media { grid-template-columns: 170px minmax(0,1fr); }
   .liquid-columns { grid-template-columns: 1fr; }
+  .liquid-columns .news-scroll { max-height: none; overflow: visible; scrollbar-gutter: auto; padding-right: 0; }
 }
 @media (max-width: 924px) {
   #main { margin-top: 2rem; }

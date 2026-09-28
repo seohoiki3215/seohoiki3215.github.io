@@ -7,7 +7,7 @@ category: conference_full
 excerpt: 'Coordinating guidance and stochasticity schedules for diffusion-based inverse problems.'
 date: 2026-03-12
 venue: 'International Conference on Machine Learning (ICML)'
-# paperurl: 'https://arxiv.org/pdf/2507.08422'
+paperurl: 'https://arxiv.org/abs/2605.26470'
 citation: 'Junseo Bang*, Dongju Moon*, <b>Hoigi Seo</b>, Seongmin Hong and Se Young Chun. (* co-first author)'
 ---
 

@@ -99,7 +99,7 @@ redirect_from:
 
     <section class="liquid-section glass-panel" data-reveal>
       <span class="section-eyebrow">03 / UPDATES</span><h2>Recent news</h2>
-      <div class="news-scroll">
+      <div class="news-scroll" tabindex="0" role="region" aria-label="Recent news updates">
         <div class="news-timeline">
           {% for item in site.data.news limit: 5 %}
             <article class="news-item" data-reveal>
