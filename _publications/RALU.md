@@ -5,7 +5,7 @@ category: conference_full
 # permalink: /publication/2024-02-17-paper-title-number-4
 excerpt: 'Region-adaptive latent upsampling accelerates diffusion transformers with minimal quality degradation.'
 date: 2026-03-12
-venue: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)'
+venue: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) <b>(Highlight · Top 3.4%)</b>'
 teaser: '/images/ralu.png'
 featured: true
 award: 'Highlight · Top 3.4%'
