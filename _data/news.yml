@@ -1,5 +1,5 @@
 - date: 2026-09-30
-  title: 'Our paper "Strong Helps Weak: Directional Cross-Modal Alignment Transfer in Multi-modal LLMs" (DCAT) was accepted to NeurIPS 2026 as a Spotlight (Top 1.3%)!'
+  title: 'Our paper "Strong Helps Weak: Directional Cross-Modal Alignment Transfer in Multi-modal LLMs" (DCAT) was accepted to <strong>NeurIPS 2026</strong> as a <mark>Spotlight (Top 1.3%)</mark>!'
   links:
     - label: "Details"
       url: "/publications/DCAT/"
@@ -9,7 +9,7 @@
       url: "https://github.com/Hyun1A/DCAT"
 
 - date: 2026-05-01
-  title: "Our paper \"Triadic Dynamics Aware Diffusion Posterior Sampling for Inverse Problems: Optimizing Guidance and Stochasticity Schedules\" accepted to ICML 2026! See you in Seoul, Korea (my hometown)!"
+  title: "Our paper \"Triadic Dynamics Aware Diffusion Posterior Sampling for Inverse Problems: Optimizing Guidance and Stochasticity Schedules\" accepted to <strong>ICML 2026</strong>! See you in Seoul, Korea (my hometown)!"
   links:
     - label: "Paper"
       url: "https://arxiv.org/abs/2605.26470"
@@ -19,7 +19,7 @@
       url: "https://github.com/mundongju/TriPS"
 
 - date: 2026-03-12
-  title: "3 Papers accepted to CVPR 2026 (2 first-authored, 1 co-authored)! RALU was selected as a Highlight (Top 3.4%). See you in Denver, Colorado!"
+  title: "3 Papers accepted to <strong>CVPR 2026</strong> (2 first-authored, 1 co-authored)! RALU was selected as a <mark>Highlight (Top 3.4%)</mark>. See you in Denver, Colorado!"
   links: []
 
 - date: 2025-10-02
@@ -27,7 +27,7 @@
   links: []
 
 - date: 2025-09-25
-  title: "Our paper \"On Epistemic Uncertainty of Visual Tokens~\" was accepted to NeurIPS 2025 (poster)."
+  title: "Our paper \"On Epistemic Uncertainty of Visual Tokens~\" was accepted to <strong>NeurIPS 2025</strong> (poster)."
   image: "/images/neurips.png"
   links:
     - label: "Paper"
@@ -47,18 +47,18 @@
       url: "https://github.com/ignoww/RALU"
 
 - date: 2025-05-01
-  title: "Skrr was accepted to ICML 2025 (poster)."
+  title: "Skrr was accepted to <strong>ICML 2025</strong> (poster)."
   image: "/images/Skrr.png"
   links:
     - label: "Paper"
       url: "https://arxiv.org/pdf/2502.08690"
 
 - date: 2025-04-26
-  title: "\"Harmonization for a black-box deep learning model\" was selected as Summa cum laude at ISMRM 2025."
+  title: "\"Harmonization for a black-box deep learning model\" was selected as Summa cum laude at <strong>ISMRM 2025</strong>."
   links: []
 
 - date: 2025-04-01
-  title: "Efficient Personalization of Quantized Diffusion Model without Backpropagation was accepted to EDGE@CVPR 2025."
+  title: "Efficient Personalization of Quantized Diffusion Model without Backpropagation was accepted to <strong>EDGE@CVPR 2025</strong>."
   links: []
 
 - date: 2025-03-29
@@ -69,7 +69,7 @@
       url: "https://arxiv.org/pdf/2503.23011"
 
 - date: 2025-02-27
-  title: "Efficient Personalization of Quantized Diffusion Model without Backpropagation was accepted to CVPR 2025 (poster)."
+  title: "Efficient Personalization of Quantized Diffusion Model without Backpropagation was accepted to <strong>CVPR 2025</strong> (poster)."
   image: "/images/ZOODiP.png"
   links:
     - label: "Paper"
@@ -80,16 +80,16 @@
       url: "https://github.com/ignoww/ZOODiP"
 
 - date: 2025-02-01
-  title: "Harmonization for a black-box deep learning model was accepted to ISMRM 2025 as an oral presentation."
+  title: "Harmonization for a black-box deep learning model was accepted to <strong>ISMRM 2025</strong> as an oral presentation."
   image: "/images/ISMRM25.png"
   links: []
 
 - date: 2024-09-20
-  title: "INTRA was accepted to ACCV Workshop 2024 as an oral presentation in abstract track."
+  title: "INTRA was accepted to <strong>ACCV Workshop 2024</strong> as an oral presentation in abstract track."
   links: []
 
 - date: 2024-09-10
-  title: "INTRA was accepted to ECCV 2024 (poster)."
+  title: "INTRA was accepted to <strong>ECCV 2024</strong> (poster)."
   image: "/images/result_intra.gif"
   links:
     - label: "Paper"
@@ -98,7 +98,7 @@
       url: "https://jeeit17.github.io/INTRA/"
 
 - date: 2024-09-10
-  title: "BeyondScene was accepted to ECCV 2024 (poster)."
+  title: "BeyondScene was accepted to <strong>ECCV 2024</strong> (poster)."
   image: "/images/beyondscene.gif"
   links:
     - label: "Paper"

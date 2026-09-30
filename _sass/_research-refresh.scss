@@ -100,6 +100,9 @@ html[data-theme="dark"] .pub-chip--award { color: #ffdf91; background: #45351b; 
 .news-scroll:focus-visible { outline: 2px solid var(--liquid-accent); outline-offset: 4px; }
 .page__content .news-date, .page__content .news-title { margin: 0; overflow-wrap: anywhere; }
 .page__content .news-title { font-size: .8rem; line-height: 1.7; }
+.news-title strong { color: var(--liquid-ink-strong); font-weight: 800; }
+.news-title mark { color: #92400e; background: #fef3c7; font-weight: 800; padding: .08em .3em; border-radius: 4px; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+html[data-theme="dark"] .news-title mark { color: #ffdf91; background: #45351b; }
 .liquid-columns .news-scroll { max-height: min(28rem, 60vh); overflow-y: auto; scrollbar-gutter: stable; overscroll-behavior-y: contain; padding-right: .6rem; }
 .liquid-columns .news-scroll::-webkit-scrollbar { width: 8px; }
 .liquid-columns .news-scroll::-webkit-scrollbar-thumb { background: var(--liquid-scrollbar); border-radius: 999px; }
