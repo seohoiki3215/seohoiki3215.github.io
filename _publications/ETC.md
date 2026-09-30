@@ -8,7 +8,7 @@ category: conference_full
 excerpt: 'Scalable concept erasure that removes thousands of concepts while preserving generation quality.'
 date: 2026-03-12
 venue: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)'
-# paperurl: 'https://arxiv.org/pdf/2507.08422'
+paperurl: 'https://arxiv.org/abs/2604.16481'
 codeurl: 'https://github.com/Hyun1A/ETC'
 projecturl: 'https://seohoiki3215.github.io/ETC_project_page/'
 citation: '<b>Hoigi Seo*</b>, Byung Hyun Lee*, Jaehyun Cho, Sungjin Lim and Se Young Chun. (* co-first author)'
