@@ -8,6 +8,8 @@ venue: 'Neural Information Processing Systems (NeurIPS) <b>(Spotlight · Top 1.3
 teaser: '/images/research/dcat.png'
 featured: true
 award: 'Spotlight · Top 1.3%'
+projecturl: 'https://seohoiki3215.github.io/DCAT_project_page/'
+codeurl: 'https://github.com/Hyun1A/DCAT'
 citation: '<b>Hoigi Seo*</b>, Byung Hyun Lee*, Minjun Kim*, Dohyun Mah, Jongho Lee and Se Young Chun. (* co-first author)'
 ---
 

@@ -8,6 +8,8 @@ excerpt: 'Coordinating guidance and stochasticity schedules for diffusion-based 
 date: 2026-03-12
 venue: 'International Conference on Machine Learning (ICML)'
 paperurl: 'https://arxiv.org/abs/2605.26470'
+projecturl: 'https://mundongju.github.io/TriPS/'
+codeurl: 'https://github.com/mundongju/TriPS'
 citation: 'Junseo Bang*, Dongju Moon*, <b>Hoigi Seo</b>, Seongmin Hong and Se Young Chun. (* co-first author)'
 ---
 
