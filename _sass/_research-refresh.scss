@@ -69,7 +69,7 @@ body::before, body::after, .liquid-hero::before, .liquid-hero::after { display: 
 .liquid-venue-row { gap: 8px; }
 .venue-note { font-size: .7rem; }
 .pub-chip { border-radius: 5px; font-size: .65rem; padding: 3px 7px; }
-.pub-chip--award { color: #78350f; background: #fef3c7; border-color: #d49a26; font-weight: 800; }
+.pub-chip--award { max-width: 100%; white-space: normal; overflow-wrap: anywhere; color: #78350f; background: #fef3c7; border-color: #d49a26; font-weight: 800; }
 html[data-theme="dark"] .pub-chip--award { color: #ffdf91; background: #45351b; border-color: #b98b37; }
 .liquid-section { padding: 0; background: transparent; border: 0; border-radius: 0; }
 .section-eyebrow { display: block; color: var(--liquid-accent-strong); font-size: .62rem; font-weight: 800; letter-spacing: .16em; margin-bottom: 10px; }

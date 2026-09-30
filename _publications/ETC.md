@@ -7,7 +7,8 @@ category: conference_full
 # permalink: /publication/2024-02-17-paper-title-number-4
 excerpt: 'Scalable concept erasure that removes thousands of concepts while preserving generation quality.'
 date: 2026-03-12
-venue: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)'
+venue: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) <b>(Compute Transparency Champion Award)</b>'
+award: 'Compute Transparency Champion Award'
 paperurl: 'https://arxiv.org/abs/2604.16481'
 codeurl: 'https://github.com/Hyun1A/ETC'
 projecturl: 'https://seohoiki3215.github.io/ETC_project_page/'
