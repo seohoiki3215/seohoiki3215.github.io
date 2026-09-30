@@ -10,6 +10,7 @@ teaser: '/images/neurips.png'
 featured: true
 paperurl: 'https://arxiv.org/abs/2510.09008'
 projecturl: 'https://keenyjin.github.io/epistemic/'
+codeurl: 'https://github.com/joohoonlee/Epistemic'
 citation: '<b>Hoigi Seo*</b>, Dong Un Kang*, Hyunjin Cho, Joohoon Lee and Se Young Chun. (* co-first author)'
 ---
 

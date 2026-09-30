@@ -34,6 +34,8 @@
       url: "https://arxiv.org/abs/2510.09008"
     - label: "Project"
       url: "https://keenyjin.github.io/epistemic/"
+    - label: "Code"
+      url: "https://github.com/joohoonlee/Epistemic"
 
 - date: 2025-08-19
   title: "Released RALU: region-adaptive latent sampling for accelerated diffusion transformers."
