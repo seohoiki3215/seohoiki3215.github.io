@@ -17,10 +17,10 @@ redirect_from:
     <div class="liquid-hero-grid">
       <div class="liquid-hero-copy">
         <span class="liquid-kicker">Ph.D. Student · Seoul National University</span>
-        <h1 class="liquid-home-title">Reliable multimodal AI.<br><span class="liquid-gradient-text">Efficient generation.</span></h1>
+        <h1 class="liquid-home-title">Efficient training &amp; inference.<br><span class="liquid-gradient-text">Multimodal &amp; generative AI.</span></h1>
         <p class="liquid-home-summary">
           I am a Ph.D. student in Electrical and Computer Engineering at Seoul National University, working with the Intelligent Computing Lab.
-          My research focuses on multimodal language-vision systems, diffusion-based generation, and robust visual representation learning.
+          My research focuses on making multimodal and generative AI more efficient to train, adapt, and run, through model merging, training-free methods, and faster, memory-efficient inference.
         </p>
         <div class="liquid-cta-row">
           <a class="liquid-btn is-primary cv-download" href="{{ '/files/Hoigi_CV.pdf' | relative_url }}" download="Hoigi_Seo_CV.pdf">{% include download-icon.html %} Download CV <span class="pdf-label">PDF</span></a>
