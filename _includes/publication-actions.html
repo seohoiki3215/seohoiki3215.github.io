@@ -1,0 +1,7 @@
+{% assign action_pub = include.publication %}
+<div class="pub-actions">
+  <a class="liquid-btn is-primary" href="{{ action_pub.url | relative_url }}">Details</a>
+  {% if action_pub.paperurl %}<a class="liquid-btn" href="{{ action_pub.paperurl }}" target="_blank" rel="noopener noreferrer">Paper</a>{% endif %}
+  {% if action_pub.projecturl %}<a class="liquid-btn" href="{{ action_pub.projecturl }}" target="_blank" rel="noopener noreferrer">Project</a>{% endif %}
+  {% if action_pub.codeurl %}<a class="liquid-btn" href="{{ action_pub.codeurl }}" target="_blank" rel="noopener noreferrer">Code</a>{% endif %}
+</div>

@@ -105,6 +105,8 @@
       url: "https://arxiv.org/pdf/2404.04544"
     - label: "Project"
       url: "https://janeyeon.github.io/beyond-scene/"
+    - label: "Code"
+      url: "https://github.com/BeyondScene/BeyondScene"
 
 - date: 2023-04-10
   title: "Published DITTO-NeRF on arXiv."
@@ -114,3 +116,5 @@
       url: "https://arxiv.org/pdf/2304.02827"
     - label: "Project"
       url: "https://janeyeon.github.io/ditto-nerf/"
+    - label: "Code"
+      url: "https://github.com/janeyeon/ditto-nerf-code"

@@ -9,6 +9,7 @@ venue: 'arXiv'
 teaser: '/images/ditto_nerf.gif'
 paperurl: 'https://arxiv.org/pdf/2304.02827'
 projecturl: 'https://janeyeon.github.io/ditto-nerf/'
+codeurl: 'https://github.com/janeyeon/ditto-nerf-code'
 citation: '<b>Hoigi Seo*</b>, Hayeon Kim, Gwanghyun Kim and Se Young Chun. (* co-first author)'
 ---
 

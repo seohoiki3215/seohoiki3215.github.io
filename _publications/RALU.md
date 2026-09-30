@@ -11,6 +11,7 @@ featured: true
 award: 'Highlight · Top 3.4%'
 paperurl: 'https://arxiv.org/pdf/2507.08422'
 codeurl: 'https://github.com/ignoww/RALU'
+projecturl: 'https://ignoww.github.io/RALU_project/'
 citation: 'Wongi Jeong*, Kyeongryeol Lee*, <b>Hoigi Seo</b> and Se Young Chun. (* co-first author)'
 ---
 

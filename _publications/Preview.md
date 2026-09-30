@@ -8,6 +8,7 @@ excerpt: 'Training-free, low-resolution previews that stay perceptually consiste
 date: 2026-03-12
 venue: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)'
 # paperurl: 'https://arxiv.org/pdf/2507.08422'
+projecturl: 'https://ignoww.github.io/Preview_project/'
 citation: '<b>Hoigi Seo*</b>, Wongi Jeong* and Se Young Chun. (* co-first author)'
 ---
 

@@ -9,6 +9,7 @@ venue: 'International Conference on Machine Learning (ICML)'
 teaser: '/images/Skrr.png'
 featured: true
 paperurl: 'https://arxiv.org/pdf/2502.08690'
+projecturl: 'https://ignoww.github.io/Skrr_project/'
 citation: '<b>Hoigi Seo*</b>, Wongi Jeong*, Jae-sun Seo and Se Young Chun. (* co-first author)'
 ---
 

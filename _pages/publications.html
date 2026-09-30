@@ -49,18 +49,7 @@ author_profile: true
                     <span>{{ post.date | date: "%b %Y" }}</span>
                     {% if post.venue %}<span>{{ post.venue }}</span>{% endif %}
                   </p>
-                  <div class="pub-actions">
-                    <a class="liquid-btn is-primary" href="{{ post.url | relative_url }}">Details</a>
-                    {% if post.paperurl %}
-                      <a class="liquid-btn" href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer">Paper</a>
-                    {% endif %}
-                    {% if post.projecturl %}
-                      <a class="liquid-btn" href="{{ post.projecturl }}" target="_blank" rel="noopener noreferrer">Project</a>
-                    {% endif %}
-                    {% if post.codeurl %}
-                      <a class="liquid-btn" href="{{ post.codeurl }}" target="_blank" rel="noopener noreferrer">Code</a>
-                    {% endif %}
-                  </div>
+                  {% include publication-actions.html publication=post %}
                 </div>
               </article>
             {% endfor %}
@@ -90,12 +79,7 @@ author_profile: true
                 <span>{{ post.date | date: "%b %Y" }}</span>
                 {% if post.venue %}<span>{{ post.venue }}</span>{% endif %}
               </p>
-              <div class="pub-actions">
-                <a class="liquid-btn is-primary" href="{{ post.url | relative_url }}">Details</a>
-                {% if post.paperurl %}
-                  <a class="liquid-btn" href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer">Paper</a>
-                {% endif %}
-              </div>
+              {% include publication-actions.html publication=post %}
             </div>
           </article>
         {% endfor %}
