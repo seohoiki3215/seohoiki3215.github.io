@@ -3,8 +3,6 @@
   links:
     - label: "Paper"
       url: "https://arxiv.org/abs/2610.04580"
-    - label: "Details"
-      url: "/publications/DCAT/"
     - label: "Project"
       url: "https://seohoiki3215.github.io/DCAT_project_page/"
     - label: "Code"
