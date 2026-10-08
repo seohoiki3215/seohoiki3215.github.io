@@ -33,6 +33,7 @@ html[data-theme="dark"] {
   --liquid-nav-ink: #edf5f7;
   --liquid-btn-border: #30444e;
 }
+html, body { background-color: var(--portfolio-bg); }
 body { background: var(--portfolio-bg); line-height: 1.65; }
 body::before, body::after, .liquid-hero::before, .liquid-hero::after { display: none; }
 .masthead { border-color: var(--portfolio-line); box-shadow: none; }
