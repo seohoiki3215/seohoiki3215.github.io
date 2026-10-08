@@ -108,7 +108,7 @@ redirect_from:
               {% if item.links and item.links.size > 0 %}
                 <div class="news-links">
                   {% for link in item.links %}
-                    <a class="news-link" href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.label }}</a>
+                    <a class="liquid-btn news-link" href="{{ link.url | relative_url }}"{% if link.url contains '://' %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ link.label }}</a>
                   {% endfor %}
                 </div>
               {% endif %}

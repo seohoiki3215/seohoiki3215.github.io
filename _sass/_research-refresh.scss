@@ -109,6 +109,7 @@ html[data-theme="dark"] .news-title mark { color: #ffdf91; background: #45351b; 
 .liquid-columns .news-scroll::-webkit-scrollbar-thumb { background: var(--liquid-scrollbar); border-radius: 999px; }
 .news-item { grid-template-columns: minmax(0, 1fr); }
 .news-links, .news-footer { overflow-wrap: anywhere; }
+.news-links .news-link { min-height: 34px; padding: 6px 11px; border-radius: 9px; font-size: .68rem; }
 .news-footer { font-size: .72rem; line-height: 1.7; }
 .publication-category { padding: 0; border: 0; border-radius: 0; background: transparent; margin-top: 1.5rem; }
 .page__content .publication-category > h2 { font-size: 1.35rem; border-bottom: 1px solid var(--portfolio-line); padding-bottom: 16px; margin-top: 0; }

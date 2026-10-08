@@ -56,22 +56,16 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
 
-        {% if page.citation and page.paperurl and page.slidesurl %}
-          <p style="font-size: smaller">Authors: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% elsif page.citation and page.paperurl %}
-          <p style="font-size: smaller">Authors: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a></p>
-        {% elsif page.citation and page.slidesurl %}
-          <p style="font-size: smaller">Authors: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% elsif page.citation %}
+        {% if page.citation %}
           <p style="font-size: smaller">Authors: {{ page.citation }}</p>
-        {% elsif page.slidesurl %}
-          <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
         {% endif %}
 
-        {% if page.projecturl or page.codeurl %}
+        {% if page.paperurl or page.projecturl or page.codeurl or page.slidesurl %}
           <div class="pub-actions">
+            {% if page.paperurl %}<a class="liquid-btn" href="{{ page.paperurl }}" target="_blank" rel="noopener noreferrer">Paper</a>{% endif %}
             {% if page.projecturl %}<a class="liquid-btn" href="{{ page.projecturl }}" target="_blank" rel="noopener noreferrer">Project</a>{% endif %}
             {% if page.codeurl %}<a class="liquid-btn" href="{{ page.codeurl }}" target="_blank" rel="noopener noreferrer">Code</a>{% endif %}
+            {% if page.slidesurl %}<a class="liquid-btn" href="{{ page.slidesurl }}" target="_blank" rel="noopener noreferrer">Slides</a>{% endif %}
           </div>
         {% endif %}
 
